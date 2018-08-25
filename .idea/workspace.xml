@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79e2db2b-f147-43a1-922e-f33c844762bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/SRP/method2/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/SRP/method2/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/SRP/method2/TestMethod2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/LSP/SubLiskov.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/LSP/SuperLiskov.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/LSP/TestLSP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/SRP/method2/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/SRP/method2/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learn/LSP/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/LSP/ReadMe.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +18,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestMethod2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/SRP/method2/TestMethod2.java">
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/LSP/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="144">
+                <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperLiskov.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/LSP/SuperLiskov.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubLiskov.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/LSP/SubLiskov.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestLSP.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/LSP/TestLSP.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -62,6 +92,10 @@
         <option value="$PROJECT_DIR$/src/com/learn/SRP/method2/IProductService.java" />
         <option value="$PROJECT_DIR$/src/com/learn/SRP/method2/ProductService.java" />
         <option value="$PROJECT_DIR$/src/com/learn/SRP/method2/TestMethod2.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/LSP/ReadMe.md" />
+        <option value="$PROJECT_DIR$/src/com/learn/LSP/SuperLiskov.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/LSP/SubLiskov.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/LSP/TestLSP.java" />
       </list>
     </option>
   </component>
@@ -112,23 +146,14 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="SRP" type="462c0819:PsiDirectoryNode" />
+              <item name="LSP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="SRP" type="462c0819:PsiDirectoryNode" />
-              <item name="method1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="SRP" type="462c0819:PsiDirectoryNode" />
-              <item name="method2" type="462c0819:PsiDirectoryNode" />
+              <item name="OCP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestMethod2.test1">
+  <component name="RunManager" selected="JUnit.TestLSP.test1">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -172,6 +197,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.learn.OCP.test" />
       <option name="MAIN_CLASS_NAME" value="com.learn.OCP.test.MainTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestLSP.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.LSP.method1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.learn.LSP.method1" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.LSP.method1.TestLSP" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -271,9 +319,11 @@
       <item itemvalue="JUnit.MainTest.test1" />
       <item itemvalue="JUnit.TestMethod1.test1" />
       <item itemvalue="JUnit.TestMethod2.test1" />
+      <item itemvalue="JUnit.TestLSP.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLSP.test1" />
         <item itemvalue="JUnit.TestMethod2.test1" />
         <item itemvalue="JUnit.TestMethod1.test1" />
         <item itemvalue="JUnit.MainTest.test1" />
@@ -291,7 +341,7 @@
       <option name="presentableId" value="Default" />
       <updated>1535095029154</updated>
       <workItem from="1535095041269" duration="7096000" />
-      <workItem from="1535161875873" duration="13609000" />
+      <workItem from="1535161875873" duration="18169000" />
     </task>
     <servers />
   </component>
@@ -328,7 +378,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20705000" />
+    <option name="totallyTimeSpent" value="25265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -343,12 +393,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32971373" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32971373" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -612,6 +662,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/LSP/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/LSP/SuperLiskov.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/LSP/SubLiskov.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/LSP/TestLSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>
