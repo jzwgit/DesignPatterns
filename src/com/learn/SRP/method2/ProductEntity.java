@@ -3,31 +3,44 @@ package com.learn.SRP.method2;
 public class ProductEntity implements IProductEntity {
     @Override
     public String getYearMonth(String YearMonth) {
-        return null;
+        String YearMonth1 = "报表日期";
+        System.out.println(YearMonth+"年月");
+        return YearMonth1;
     }
 
     @Override
     public String getName(String Name) {
-        return null;
+        String Name1 = "手机";
+        System.out.println(Name+"功能性");
+        return Name1;
     }
 
     @Override
-    public String getType(String Type) {
-        return null;
+    public String getType(String type) {
+        String type1 = "产品类型";
+        System.out.println(type+"产品类型");
+        return type1;
     }
 
     @Override
     public String getBrand(String Brand) {
-        return null;
+        String Brand1 = "品牌";
+        System.out.println(Brand+"眼镜");
+        return Brand1;
     }
 
     @Override
     public int getValue(int Value) {
-        return 0;
+        int Value1 = 20;
+        System.out.println(Value+"价格");
+        return Value1;
     }
 
     @Override
     public String getLocality(String Locality) {
-        return null;
+        String Locality1 = "产地";
+        System.out.println(Locality+"产品产地");
+        return Locality1;
     }
+
 }
