@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79e2db2b-f147-43a1-922e-f33c844762bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/LSP/method2/BlackCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/LSP/method2/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/LSP/method2/TestMethod2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/LSP/method2/WhiteCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/LSP/method2/jackbean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/LSP/method1/TestLSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/LSP/method1/TestMethod1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/DIP/ReadMe.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,14 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestMethod2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/LSP/method2/TestMethod2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/DIP/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="168">
+                <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -79,6 +71,7 @@
         <option value="$PROJECT_DIR$/src/com/learn/LSP/method2/jackbean.xml" />
         <option value="$PROJECT_DIR$/src/com/learn/LSP/method1/TestLSP.java" />
         <option value="$PROJECT_DIR$/src/com/learn/LSP/method2/TestMethod2.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/DIP/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -129,30 +122,7 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="LSP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="LSP" type="462c0819:PsiDirectoryNode" />
-              <item name="method1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="LSP" type="462c0819:PsiDirectoryNode" />
-              <item name="method2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="OCP" type="462c0819:PsiDirectoryNode" />
+              <item name="DIP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -369,14 +339,11 @@
       <option name="presentableId" value="Default" />
       <updated>1535095029154</updated>
       <workItem from="1535095041269" duration="7096000" />
-      <workItem from="1535161875873" duration="19920000" />
+      <workItem from="1535161875873" duration="20510000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_test1 - 2018.08.24 at 16h 35m 35s.xml">
-      <configuration name="MainTest.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest_test1 - 2018.08.24 at 16h 35m 48s.xml">
       <configuration name="MainTest.test1" configurationId="JUnit" />
     </history-entry>
@@ -404,9 +371,12 @@
     <history-entry file="TestLSP_test1 - 2018.08.25 at 16h 06m 26s.xml">
       <configuration name="TestLSP.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMethod2_test1_(1) - 2018.08.25 at 16h 35m 38s.xml">
+      <configuration name="TestMethod2.test1 (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27016000" />
+    <option name="totallyTimeSpent" value="27606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -780,6 +750,16 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/DIP/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
