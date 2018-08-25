@@ -2,7 +2,7 @@ package com.learn.LSP.method1;
 
 import org.junit.Test;
 
-public class TestLSP {
+public class TestMethod1 {
     @Test
     public void test1(){
         SuperLiskov ob = new SubLiskov();
