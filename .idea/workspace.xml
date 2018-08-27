@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79e2db2b-f147-43a1-922e-f33c844762bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/ISP/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/ISP/ICommodityForAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/ISP/ICommodityForPortal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/ISP/Protal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/ISP/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/ISP/TestISP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/LOD/LinkMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/LOD/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/LOD/SomeGirl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/LOD/SomeMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/LOD/SuccessRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,47 +19,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Admin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/ISP/Admin.java">
+      <file leaf-file-name="LinkMan.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/LOD/LinkMan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="216">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding>
+                <element signature="e#69#70#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Protal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/ISP/Protal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestISP.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/ISP/TestISP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICommodityForPortal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/ISP/ICommodityForPortal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICommodityForAdmin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/ISP/ICommodityForAdmin.java">
+      <file leaf-file-name="SomeGirl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/LOD/SomeGirl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SomeMan.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/LOD/SomeMan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+              <folding>
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuccessRun.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/LOD/SuccessRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -124,6 +123,11 @@
         <option value="$PROJECT_DIR$/src/com/learn/ISP/Admin.java" />
         <option value="$PROJECT_DIR$/src/com/learn/ISP/Protal.java" />
         <option value="$PROJECT_DIR$/src/com/learn/ISP/TestISP.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/LOD/ReadMe.md" />
+        <option value="$PROJECT_DIR$/src/com/learn/LOD/LinkMan.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/LOD/SomeMan.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/LOD/SomeGirl.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/LOD/SuccessRun.java" />
       </list>
     </option>
   </component>
@@ -173,7 +177,7 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="ISP" type="462c0819:PsiDirectoryNode" />
+              <item name="LOD" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,9 +210,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestISP.test1">
+  <component name="RunManager" selected="JUnit.SuccessRun.test1">
+    <configuration name="SuccessRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.LOD.method1.SuccessRun" />
+      <module name="DesignPatterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.LOD.method1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SuccessRun.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.LOD.method1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.learn.LOD.method1" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.LOD.method1.SuccessRun" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TestDIP.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
@@ -256,29 +294,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestLSP.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.LSP.method1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.LSP.method1" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.LSP.method1.TestLSP" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="TestMethod2.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
@@ -291,29 +306,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.learn.LSP.method2" />
       <option name="MAIN_CLASS_NAME" value="com.learn.LSP.method2.TestMethod2" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestMethod2.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.SRP.method2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.SRP.method2" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.SRP.method2.TestMethod2" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -364,19 +356,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestMethod2.test1" />
-      <item itemvalue="JUnit.TestLSP.test1" />
       <item itemvalue="JUnit.TestMethod2.test1 (1)" />
       <item itemvalue="JUnit.TestDIP.test1" />
       <item itemvalue="JUnit.TestISP.test1" />
+      <item itemvalue="Application.SuccessRun" />
+      <item itemvalue="JUnit.SuccessRun.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SuccessRun.test1" />
+        <item itemvalue="Application.SuccessRun" />
         <item itemvalue="JUnit.TestISP.test1" />
         <item itemvalue="JUnit.TestDIP.test1" />
         <item itemvalue="JUnit.TestMethod2.test1 (1)" />
-        <item itemvalue="JUnit.TestLSP.test1" />
-        <item itemvalue="JUnit.TestMethod2.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -392,23 +384,11 @@
       <updated>1535095029154</updated>
       <workItem from="1535095041269" duration="7096000" />
       <workItem from="1535161875873" duration="24224000" />
-      <workItem from="1535332908853" duration="7830000" />
+      <workItem from="1535332908853" duration="9881000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMethod2_test1_(1) - 2018.08.25 at 16h 35m 38s.xml">
-      <configuration name="TestMethod2.test1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDIP_test1 - 2018.08.25 at 17h 12m 35s.xml">
-      <configuration name="TestDIP.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDIP_test1 - 2018.08.25 at 17h 13m 46s.xml">
-      <configuration name="TestDIP.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestISP_test1 - 2018.08.27 at 13h 20m 34s.xml">
-      <configuration name="TestISP.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestISP_test1 - 2018.08.27 at 13h 21m 42s.xml">
       <configuration name="TestISP.test1" configurationId="JUnit" />
     </history-entry>
@@ -427,9 +407,21 @@
     <history-entry file="TestISP_test1 - 2018.08.27 at 13h 24m 27s.xml">
       <configuration name="TestISP.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestISP_test1 - 2018.08.27 at 13h 24m 42s.xml">
+      <configuration name="TestISP.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuccessRun_test1 - 2018.08.27 at 13h 54m 53s.xml">
+      <configuration name="SuccessRun.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuccessRun_test1 - 2018.08.27 at 13h 58m 27s.xml">
+      <configuration name="SuccessRun.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuccessRun_test1 - 2018.08.27 at 13h 58m 46s.xml">
+      <configuration name="SuccessRun.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39150000" />
+    <option name="totallyTimeSpent" value="41201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -509,45 +501,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learn/DIP/TestDIP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/OCP/pojo/BoyShoe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/OCP/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/SRP/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="96">
-            <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/SRP/method1/IProductEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/SRP/method1/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -886,6 +839,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/LOD/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/LOD/SomeGirl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/LOD/SomeMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/LOD/LinkMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#69#70#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/LOD/SuccessRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
         </state>
       </provider>
     </entry>
