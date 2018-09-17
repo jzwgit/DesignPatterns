@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79e2db2b-f147-43a1-922e-f33c844762bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/FactoryMethod/IMachineFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/FactoryMethod/IXiaoMing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/FactoryMethod/PraiseOneFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/FactoryMethod/PraiseTwoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/FactoryMethod/PriaseOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/FactoryMethod/PriaseTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/FactoryMethod/TestMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/FactoryMethod/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/FactoryMethod/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/AbstractFactory/ReadMe.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +13,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/AbstractFactory/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,7 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learn/SRP/method1/IProductEntity.java" />
         <option value="$PROJECT_DIR$/src/com/learn/SRP/method1/ProductService.java" />
         <option value="$PROJECT_DIR$/src/com/learn/SRP/method1/ProductEntity.java" />
         <option value="$PROJECT_DIR$/src/com/learn/SRP/method1/TestMethod1.java" />
@@ -89,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/com/learn/FactoryMethod/PriaseOne.java" />
         <option value="$PROJECT_DIR$/src/com/learn/FactoryMethod/PriaseTwo.java" />
         <option value="$PROJECT_DIR$/src/com/learn/FactoryMethod/TestMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -141,6 +146,13 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractFactory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -352,7 +364,7 @@
       <workItem from="1535332908853" duration="22823000" />
       <workItem from="1535418581031" duration="14681000" />
       <workItem from="1535443381619" duration="1018000" />
-      <workItem from="1537150772296" duration="5370000" />
+      <workItem from="1537150772296" duration="5920000" />
     </task>
     <servers />
   </component>
@@ -389,10 +401,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75212000" />
+    <option name="totallyTimeSpent" value="75762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -472,16 +485,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learn/SRP/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="96">
-            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/SRP/method1/IProductEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -868,6 +871,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/AbstractFactory/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
