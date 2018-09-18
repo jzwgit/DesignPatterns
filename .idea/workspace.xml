@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79e2db2b-f147-43a1-922e-f33c844762bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Singleton/JackSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Singleton/JackSingletonOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Singleton/NoName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Singleton/TestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Builder/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,11 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestMethod.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestMethod.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/learn/Singleton/TestMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="699">
               <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/Builder/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="192">
+                <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -44,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learn/LSP/method1/TestLSP.java" />
         <option value="$PROJECT_DIR$/src/com/learn/LSP/method2/TestMethod2.java" />
         <option value="$PROJECT_DIR$/src/com/learn/DIP/ReadMe.md" />
         <option value="$PROJECT_DIR$/src/com/learn/DIP/IEmployee.java" />
@@ -95,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/com/learn/Singleton/JackSingletonOne.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Singleton/NoName.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Singleton/TestMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/Builder/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -153,7 +162,7 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="Singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="Builder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -383,14 +392,11 @@
       <workItem from="1535418581031" duration="14681000" />
       <workItem from="1535443381619" duration="1018000" />
       <workItem from="1537150772296" duration="14157000" />
-      <workItem from="1537232677898" duration="2463000" />
+      <workItem from="1537232677898" duration="5362000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SuccessRun_main - 2018.09.17 at 10h 39m 22s.xml">
-      <configuration name="SuccessRun.main" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SuccessRun_main - 2018.09.17 at 10h 39m 59s.xml">
       <configuration name="SuccessRun.main" configurationId="JUnit" />
     </history-entry>
@@ -418,9 +424,12 @@
     <history-entry file="TestMethod_test1_(1) - 2018.09.17 at 17h 40m 11s.xml">
       <configuration name="TestMethod.test1 (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMethod_test1_(2) - 2018.09.18 at 09h 52m 38s.xml">
+      <configuration name="TestMethod.test1 (2)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86462000" />
+    <option name="totallyTimeSpent" value="89361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -428,6 +437,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -435,12 +445,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2744324" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.84007895" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -454,7 +464,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -504,13 +513,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learn/LSP/method2/BlackCat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/LSP/method2/jackbean.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -884,8 +886,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/Singleton/TestMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="699">
           <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Builder/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="192">
+            <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
