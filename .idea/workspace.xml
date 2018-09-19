@@ -6,12 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e2db2b-f147-43a1-922e-f33c844762bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Decorator/decorate/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Decorator/decorate/ExamineeRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Decorator/decorate/OrderDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Decorator/decorate/TestMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Decorator/decorate/TipTopPointDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Decorator/decorate/YearExamineeRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Facade/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,11 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestMethod.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestMethod.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/learn/Decorator/decorate/TestMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            <state relative-caret-position="504">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/Facade/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="192">
+                <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -59,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learn/Builder/test.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Builder/WasherBuilder.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Builder/SiemensDirector.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Builder/Compressor.java" />
@@ -110,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/com/learn/Decorator/decorate/TipTopPointDecorator.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Decorator/decorate/OrderDecorator.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Decorator/decorate/TestMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/Facade/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -168,23 +175,7 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="Decorator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="Decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="decorate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="Decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="traditional" type="462c0819:PsiDirectoryNode" />
+              <item name="Facade" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -415,14 +406,11 @@
       <workItem from="1535443381619" duration="1018000" />
       <workItem from="1537150772296" duration="14157000" />
       <workItem from="1537232677898" duration="22690000" />
-      <workItem from="1537319070019" duration="14265000" />
+      <workItem from="1537319070019" duration="17901000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 37m 38s.xml">
-      <configuration name="ClientCase.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 38m 08s.xml">
       <configuration name="ClientCase.test1" configurationId="JUnit" />
     </history-entry>
@@ -450,9 +438,12 @@
     <history-entry file="TestMethod_test - 2018.09.19 at 14h 58m 06s.xml">
       <configuration name="TestMethod.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMethod_test - 2018.09.19 at 14h 59m 35s.xml">
+      <configuration name="TestMethod.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120954000" />
+    <option name="totallyTimeSpent" value="124590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -473,7 +464,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11886994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -536,13 +527,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learn/Builder/SiemensWasherBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/Builder/TestMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -968,8 +952,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/Decorator/decorate/TestMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        <state relative-caret-position="504">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Facade/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="192">
+            <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
