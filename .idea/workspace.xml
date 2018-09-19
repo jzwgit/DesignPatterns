@@ -6,8 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e2db2b-f147-43a1-922e-f33c844762bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Adapter/objectAdapter/ProduceShoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Adapter/objectAdapter/TestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Bridge/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +19,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestMethod.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/Adapter/objectAdapter/TestMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/Bridge/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="288">
+                <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -45,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learn/LOD/method2/SuccessRun.java" />
         <option value="$PROJECT_DIR$/src/com/learn/FactoryMethod/IMachineFactory.java" />
         <option value="$PROJECT_DIR$/src/com/learn/FactoryMethod/IXiaoMing.java" />
         <option value="$PROJECT_DIR$/src/com/learn/FactoryMethod/PraiseOneFactory.java" />
@@ -96,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/com/learn/Adapter/classAdapter/TestMethod.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Adapter/objectAdapter/ProduceShoe.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Adapter/objectAdapter/TestMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/Bridge/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -154,15 +157,7 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="Adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="Adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="objectAdapter" type="462c0819:PsiDirectoryNode" />
+              <item name="Bridge" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -393,14 +388,11 @@
       <workItem from="1535443381619" duration="1018000" />
       <workItem from="1537150772296" duration="14157000" />
       <workItem from="1537232677898" duration="22690000" />
-      <workItem from="1537319070019" duration="1820000" />
+      <workItem from="1537319070019" duration="4713000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_test1 - 2018.09.18 at 11h 22m 47s.xml">
-      <configuration name="test.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="test_test1 - 2018.09.18 at 11h 23m 10s.xml">
       <configuration name="test.test1" configurationId="JUnit" />
     </history-entry>
@@ -428,9 +420,12 @@
     <history-entry file="TestMethod_test1 - 2018.09.19 at 09h 26m 08s.xml">
       <configuration name="TestMethod.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMethod_test1_(1) - 2018.09.19 at 09h 34m 59s.xml">
+      <configuration name="TestMethod.test1 (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108509000" />
+    <option name="totallyTimeSpent" value="111402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -446,12 +441,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4550839" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36426455" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1108742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.102878466" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -514,13 +509,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learn/FactoryMethod/PraiseTwoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/FactoryMethod/PraiseOneFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -904,12 +892,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/Adapter/objectAdapter/ProduceShoe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
+        <state relative-caret-position="480">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -918,6 +906,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Bridge/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="288">
+            <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
