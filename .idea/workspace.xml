@@ -6,11 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e2db2b-f147-43a1-922e-f33c844762bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Adapter/classAdapter/ProduceDress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Adapter/classAdapter/ProduceShoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Adapter/classAdapter/TestMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/Adapter/classAdapter/ProduceCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/Adapter/classAdapter/ProduceCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Adapter/objectAdapter/ProduceShoe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Adapter/objectAdapter/TestMethod.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="TestMethod.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/Adapter/classAdapter/TestMethod.java">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/Adapter/objectAdapter/TestMethod.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -48,8 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learn/LOD/method2/SomeMan.java" />
-        <option value="$PROJECT_DIR$/src/com/learn/LOD/method2/LinkMan.java" />
         <option value="$PROJECT_DIR$/src/com/learn/LOD/method2/SuccessRun.java" />
         <option value="$PROJECT_DIR$/src/com/learn/FactoryMethod/IMachineFactory.java" />
         <option value="$PROJECT_DIR$/src/com/learn/FactoryMethod/IXiaoMing.java" />
@@ -99,6 +94,8 @@
         <option value="$PROJECT_DIR$/src/com/learn/Adapter/classAdapter/ProduceShoe.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Adapter/classAdapter/ProduceDress.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Adapter/classAdapter/TestMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/Adapter/objectAdapter/ProduceShoe.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/Adapter/objectAdapter/TestMethod.java" />
       </list>
     </option>
   </component>
@@ -165,7 +162,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="Adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="classAdapter" type="462c0819:PsiDirectoryNode" />
+              <item name="objectAdapter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,9 +202,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestMethod.test1">
+  <component name="RunManager" selected="JUnit.TestMethod.test1 (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestMethod.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.Adapter.objectAdapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.learn.Adapter.objectAdapter" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.Adapter.objectAdapter.TestMethod" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TestMethod.test1 (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
@@ -317,29 +337,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.Builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.Builder" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.Builder.test" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -363,19 +360,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.test.test1" />
       <item itemvalue="JUnit.TestMethod.test1 (3)" />
       <item itemvalue="JUnit.TestMethod.test1 (4)" />
       <item itemvalue="JUnit.TestTradition.test1" />
       <item itemvalue="JUnit.TestMethod.test1" />
+      <item itemvalue="JUnit.TestMethod.test1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestMethod.test1 (1)" />
         <item itemvalue="JUnit.TestMethod.test1" />
         <item itemvalue="JUnit.TestTradition.test1" />
         <item itemvalue="JUnit.TestMethod.test1 (4)" />
         <item itemvalue="JUnit.TestMethod.test1 (3)" />
-        <item itemvalue="JUnit.test.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -396,14 +393,11 @@
       <workItem from="1535443381619" duration="1018000" />
       <workItem from="1537150772296" duration="14157000" />
       <workItem from="1537232677898" duration="22690000" />
-      <workItem from="1537319070019" duration="1293000" />
+      <workItem from="1537319070019" duration="1820000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMethod_test1_(2) - 2018.09.18 at 09h 52m 38s.xml">
-      <configuration name="TestMethod.test1 (2)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="test_test1 - 2018.09.18 at 11h 22m 47s.xml">
       <configuration name="test.test1" configurationId="JUnit" />
     </history-entry>
@@ -431,9 +425,12 @@
     <history-entry file="TestTradition_test1 - 2018.09.19 at 09h 17m 09s.xml">
       <configuration name="TestTradition.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMethod_test1 - 2018.09.19 at 09h 26m 08s.xml">
+      <configuration name="TestMethod.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107982000" />
+    <option name="totallyTimeSpent" value="108509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -517,20 +514,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learn/FactoryMethod/IMachineFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/FactoryMethod/IXiaoMing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/FactoryMethod/PraiseTwoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -916,6 +899,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Adapter/objectAdapter/ProduceShoe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Adapter/objectAdapter/TestMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
