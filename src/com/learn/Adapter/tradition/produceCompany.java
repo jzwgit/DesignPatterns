@@ -1,4 +1,4 @@
-package com.learn.Adapter;
+package com.learn.Adapter.tradition;
 
 public interface produceCompany {
     String getShoe();
