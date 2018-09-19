@@ -6,7 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e2db2b-f147-43a1-922e-f33c844762bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Decorator/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Decorator/traditional/ExamineeRecorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Decorator/traditional/ExamineeRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Decorator/traditional/TestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Decorator/traditional/TipTopPointReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,42 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/Composite/Node.java">
+      <file leaf-file-name="TipTopPointReport.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/Decorator/traditional/TipTopPointReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding>
-                <element signature="e#181#188#0" expanded="true" />
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/Composite/ClientCase.java">
+      <file leaf-file-name="TestMethod.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/Decorator/traditional/TestMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/Decorator/ReadMe.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="240">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -76,10 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/GirlFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/ManMakeMoney.java" />
-        <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/ManStudy.java" />
-        <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/ManFactory.java" />
         <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/TestMethod.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Singleton/JackSingleton.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Singleton/JackSingletonOne.java" />
@@ -127,6 +104,10 @@
         <option value="$PROJECT_DIR$/src/com/learn/Composite/Node.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Composite/ClientCase.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Decorator/ReadMe.md" />
+        <option value="$PROJECT_DIR$/src/com/learn/Decorator/traditional/ExamineeRecord.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/Decorator/traditional/ExamineeRecorDetail.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/Decorator/traditional/TipTopPointReport.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/Decorator/traditional/TestMethod.java" />
       </list>
     </option>
   </component>
@@ -187,6 +168,14 @@
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="Decorator" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="Decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="traditional" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -225,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClientCase.test1">
+  <component name="RunManager" selected="JUnit.TestMethod.test1 (3)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -298,6 +287,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TestMethod.test1 (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.Decorator.traditional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.learn.Decorator.traditional" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.Decorator.traditional.TestMethod" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="TestMethod.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
@@ -310,29 +322,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.learn.Adapter.classAdapter" />
       <option name="MAIN_CLASS_NAME" value="com.learn.Adapter.classAdapter.TestMethod" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestTradition.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.Adapter.tradition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.Adapter.tradition" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.Adapter.tradition.TestTradition" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -383,19 +372,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestTradition.test1" />
       <item itemvalue="JUnit.TestMethod.test1" />
       <item itemvalue="JUnit.TestMethod.test1 (1)" />
       <item itemvalue="JUnit.TestMethod.test1 (2)" />
       <item itemvalue="JUnit.ClientCase.test1" />
+      <item itemvalue="JUnit.TestMethod.test1 (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestMethod.test1 (3)" />
         <item itemvalue="JUnit.ClientCase.test1" />
         <item itemvalue="JUnit.TestMethod.test1 (2)" />
         <item itemvalue="JUnit.TestMethod.test1 (1)" />
         <item itemvalue="JUnit.TestMethod.test1" />
-        <item itemvalue="JUnit.TestTradition.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -416,14 +405,11 @@
       <workItem from="1535443381619" duration="1018000" />
       <workItem from="1537150772296" duration="14157000" />
       <workItem from="1537232677898" duration="22690000" />
-      <workItem from="1537319070019" duration="11540000" />
+      <workItem from="1537319070019" duration="12368000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 34m 00s.xml">
-      <configuration name="ClientCase.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 34m 19s.xml">
       <configuration name="ClientCase.test1" configurationId="JUnit" />
     </history-entry>
@@ -451,9 +437,12 @@
     <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 38m 35s.xml">
       <configuration name="ClientCase.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMethod_test1_(3) - 2018.09.19 at 14h 27m 00s.xml">
+      <configuration name="TestMethod.test1 (3)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118229000" />
+    <option name="totallyTimeSpent" value="119057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -469,7 +458,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34452122" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6377098" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -537,34 +526,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learn/AbstractFactory/ManFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/Singleton/JackSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/AbstractFactory/TestMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/Singleton/JackSingletonOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/Singleton/NoName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -970,6 +931,34 @@
             <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Decorator/traditional/ExamineeRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Decorator/traditional/ExamineeRecorDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Decorator/traditional/TipTopPointReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Decorator/traditional/TestMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
