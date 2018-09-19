@@ -6,10 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e2db2b-f147-43a1-922e-f33c844762bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Composite/ClientCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Composite/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Composite/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Composite/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Decorator/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientCase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClientCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/learn/Composite/ClientCase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="402">
@@ -46,6 +43,18 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/Decorator/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="216">
+                <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -67,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/GirlMakeMoney.java" />
         <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/GirlFactory.java" />
         <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/ManMakeMoney.java" />
         <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/ManStudy.java" />
@@ -118,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/com/learn/Composite/Monitor.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Composite/Node.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Composite/ClientCase.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/Decorator/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -176,7 +185,7 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="Composite" type="462c0819:PsiDirectoryNode" />
+              <item name="Decorator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -407,14 +416,11 @@
       <workItem from="1535443381619" duration="1018000" />
       <workItem from="1537150772296" duration="14157000" />
       <workItem from="1537232677898" duration="22690000" />
-      <workItem from="1537319070019" duration="9410000" />
+      <workItem from="1537319070019" duration="11540000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMethod_test1_(2) - 2018.09.19 at 11h 10m 12s.xml">
-      <configuration name="TestMethod.test1 (2)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 34m 00s.xml">
       <configuration name="ClientCase.test1" configurationId="JUnit" />
     </history-entry>
@@ -442,9 +448,12 @@
     <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 38m 26s.xml">
       <configuration name="ClientCase.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 38m 35s.xml">
+      <configuration name="ClientCase.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116099000" />
+    <option name="totallyTimeSpent" value="118229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -460,7 +469,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36426455" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34452122" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -528,13 +537,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learn/AbstractFactory/ManMakeMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/AbstractFactory/ManFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -958,6 +960,16 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Decorator/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
