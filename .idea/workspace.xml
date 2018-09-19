@@ -6,7 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e2db2b-f147-43a1-922e-f33c844762bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Composite/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Composite/ClientCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Composite/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Composite/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Composite/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +22,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/Composite/ReadMe.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="192">
-                <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/Composite/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding>
+                <element signature="e#181#188#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientCase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/Composite/ClientCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,10 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/IMakeMoney.java" />
-        <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/IHumanFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/IStudy.java" />
-        <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/GirlStudy.java" />
         <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/GirlMakeMoney.java" />
         <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/GirlFactory.java" />
         <option value="$PROJECT_DIR$/src/com/learn/AbstractFactory/ManMakeMoney.java" />
@@ -98,6 +114,10 @@
         <option value="$PROJECT_DIR$/src/com/learn/Bridge/VillaImpl.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Bridge/TestMethod.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Composite/ReadMe.md" />
+        <option value="$PROJECT_DIR$/src/com/learn/Composite/Group.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/Composite/Monitor.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/Composite/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/Composite/ClientCase.java" />
       </list>
     </option>
   </component>
@@ -196,9 +216,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestMethod.test1 (2)">
+  <component name="RunManager" selected="JUnit.ClientCase.test1">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ClientCase.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.Composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.learn.Composite" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.Composite.ClientCase" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TestMethod.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
@@ -235,29 +278,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.learn.Bridge" />
       <option name="MAIN_CLASS_NAME" value="com.learn.Bridge.TestMethod" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestMethod.test1 (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.Prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.Prototype" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.Prototype.TestMethod" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -354,19 +374,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestMethod.test1 (4)" />
       <item itemvalue="JUnit.TestTradition.test1" />
       <item itemvalue="JUnit.TestMethod.test1" />
       <item itemvalue="JUnit.TestMethod.test1 (1)" />
       <item itemvalue="JUnit.TestMethod.test1 (2)" />
+      <item itemvalue="JUnit.ClientCase.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClientCase.test1" />
         <item itemvalue="JUnit.TestMethod.test1 (2)" />
         <item itemvalue="JUnit.TestMethod.test1 (1)" />
         <item itemvalue="JUnit.TestMethod.test1" />
         <item itemvalue="JUnit.TestTradition.test1" />
-        <item itemvalue="JUnit.TestMethod.test1 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -387,44 +407,44 @@
       <workItem from="1535443381619" duration="1018000" />
       <workItem from="1537150772296" duration="14157000" />
       <workItem from="1537232677898" duration="22690000" />
-      <workItem from="1537319070019" duration="6755000" />
+      <workItem from="1537319070019" duration="9410000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_test1 - 2018.09.18 at 11h 23m 27s.xml">
-      <configuration name="test.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_test1 - 2018.09.18 at 11h 23m 36s.xml">
-      <configuration name="test.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMethod_test1_(3) - 2018.09.18 at 13h 30m 51s.xml">
-      <configuration name="TestMethod.test1 (3)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMethod_test1_(3) - 2018.09.18 at 13h 31m 08s.xml">
-      <configuration name="TestMethod.test1 (3)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMethod_test1_(4) - 2018.09.18 at 14h 13m 59s.xml">
-      <configuration name="TestMethod.test1 (4)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMethod_test1_(4) - 2018.09.19 at 09h 17m 06s.xml">
-      <configuration name="TestMethod.test1 (4)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTradition_test1 - 2018.09.19 at 09h 17m 09s.xml">
-      <configuration name="TestTradition.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMethod_test1 - 2018.09.19 at 09h 26m 08s.xml">
-      <configuration name="TestMethod.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMethod_test1_(1) - 2018.09.19 at 09h 34m 59s.xml">
-      <configuration name="TestMethod.test1 (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestMethod_test1_(2) - 2018.09.19 at 11h 10m 12s.xml">
       <configuration name="TestMethod.test1 (2)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 34m 00s.xml">
+      <configuration name="ClientCase.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 34m 19s.xml">
+      <configuration name="ClientCase.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 34m 59s.xml">
+      <configuration name="ClientCase.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 35m 12s.xml">
+      <configuration name="ClientCase.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 37m 24s.xml">
+      <configuration name="ClientCase.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 37m 38s.xml">
+      <configuration name="ClientCase.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 38m 08s.xml">
+      <configuration name="ClientCase.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 38m 19s.xml">
+      <configuration name="ClientCase.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientCase_test1 - 2018.09.19 at 13h 38m 26s.xml">
+      <configuration name="ClientCase.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113444000" />
+    <option name="totallyTimeSpent" value="116099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -440,12 +460,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36426455" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36426455" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.102878466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.102878466" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -500,7 +520,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -508,34 +528,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learn/AbstractFactory/GirlStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/AbstractFactory/GirlMakeMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/AbstractFactory/GirlFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/AbstractFactory/ManStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/AbstractFactory/ManMakeMoney.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -918,6 +910,54 @@
             <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Composite/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Composite/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Composite/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#181#188#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Composite/ClientCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
