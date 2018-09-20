@@ -7,11 +7,16 @@ package com.learn.Flyweight.one;
 public class ConcerteShare implements Share {
 
     //内蕴状态
-    private Character internalFettle = null;
+    private String internalFettle = null;
     //外蕴状态参数传进
-    public ConcerteShare(Character fettle){
+    public ConcerteShare(String fettle){
         this.internalFettle = fettle;
     }
+
+    public ConcerteShare(Character fettle) {
+
+    }
+
     @Override
     public String work(String fettle) {
         String a = "internalFettle = "+internalFettle+", Exterior Fettle = ";
