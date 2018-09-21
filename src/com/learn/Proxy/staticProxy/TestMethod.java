@@ -1,4 +1,4 @@
-package com.learn.Proxy;
+package com.learn.Proxy.staticProxy;
 
 import org.junit.Test;
 

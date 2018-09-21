@@ -1,4 +1,4 @@
-package com.learn.Proxy;
+package com.learn.Proxy.staticProxy;
 
 /**
  * 代理主题角色
