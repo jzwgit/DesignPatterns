@@ -6,7 +6,8 @@ package com.learn.ChainOfResponsibility;
 public abstract class Approval {
    //拥有处理请求的下一个对象
    protected Approval pass = null;
-   //取值方法
+
+    //取值方法
     public Approval getPass(){
         return pass;
     }
