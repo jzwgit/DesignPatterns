@@ -27,6 +27,7 @@ public class Cost implements ICost{
     //增加项目
     @Override
     public void add(String name, int num, int cost) {
+
         this.costArrayList.add(new Cost(name,num,cost));
     }
 
@@ -41,7 +42,6 @@ public class Cost implements ICost{
         //费用
         info = info + "费用："+this.charge;
         return info;
-
     }
 
     //产生一个遍历对象

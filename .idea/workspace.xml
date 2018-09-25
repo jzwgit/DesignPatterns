@@ -8,13 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e2db2b-f147-43a1-922e-f33c844762bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Iterator/Cost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Iterator/CostIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Iterator/ICosIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Iterator/ICost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/Iterator/TestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/Mediator/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/Iterator/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/Iterator/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learn/Iterator/Cost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/Iterator/Cost.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,60 +25,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ICost.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/Iterator/ICost.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cost.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/Iterator/Cost.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-              <folding>
-                <element signature="e#219#226#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestMethod.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/Iterator/TestMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICosIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/Iterator/ICosIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CostIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learn/Iterator/CostIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#243#250#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/Mediator/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="192">
+                <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -104,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learn/Facade/ReadMe.md" />
         <option value="$PROJECT_DIR$/src/com/learn/Facade/IElectricPowerMarketing.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Facade/ElectricPowerMarketingImpl.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Facade/PublicAgent.java" />
@@ -155,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/com/learn/Iterator/CostIterator.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Iterator/TestMethod.java" />
         <option value="$PROJECT_DIR$/src/com/learn/Iterator/Cost.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/Mediator/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -211,7 +161,7 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="Iterator" type="462c0819:PsiDirectoryNode" />
+              <item name="Mediator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -474,20 +424,11 @@
       <workItem from="1537510283982" duration="12365000" />
       <workItem from="1537525428101" duration="691000" />
       <workItem from="1537580038812" duration="17528000" />
-      <workItem from="1537837885518" duration="10910000" />
+      <workItem from="1537837885518" duration="14705000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMethod - 2018.09.21 at 15h 36m 42s.xml">
-      <configuration name="TestMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMethod - 2018.09.21 at 15h 37m 37s.xml">
-      <configuration name="TestMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMethod_test1_(2) - 2018.09.21 at 15h 38m 01s.xml">
-      <configuration name="TestMethod.test1 (2)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestMethod_test1_(3) - 2018.09.21 at 16h 23m 02s.xml">
       <configuration name="TestMethod.test1 (3)" configurationId="JUnit" />
     </history-entry>
@@ -509,9 +450,18 @@
     <history-entry file="TestMethod_test1 - 2018.09.25 at 13h 55m 07s.xml">
       <configuration name="TestMethod.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMethod_test1 - 2018.09.25 at 13h 57m 16s.xml">
+      <configuration name="TestMethod.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMethod_test1 - 2018.09.25 at 13h 58m 15s.xml">
+      <configuration name="TestMethod.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMethod_test1 - 2018.09.25 at 14h 00m 02s.xml">
+      <configuration name="TestMethod.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203872000" />
+    <option name="totallyTimeSpent" value="207667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -527,12 +477,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29615006" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.55083907" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.118336886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.118336886" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32971373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -595,13 +545,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learn/Facade/TestMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/Flyweight/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -969,13 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/Iterator/ICost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/Iterator/ICosIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -996,24 +932,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Iterator/TestMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Iterator/ICost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/Iterator/Cost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="672">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
             <element signature="e#219#226#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
             <element signature="e#1051#1052#0" expanded="true" />
             <element signature="e#1076#1077#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/Iterator/TestMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+    <entry file="file://$PROJECT_DIR$/src/com/learn/Mediator/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="192">
+            <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
